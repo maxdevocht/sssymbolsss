@@ -1,9 +1,14 @@
-
+@font-face {
+  font-family: "Antique";   /*Can be any text*/
+  src: local("Antique"),
+    url("./font/Antique-Olive-Bold_3863.tff") format("tff");
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root {
-  --color-white: ;
-  --color-black: ;
-  --color-white: ;
+  --color-white: #fafafa;
+  --color-black: #1f1f1f;
+  --color-blue: #36B4E5;
   --color-white: ;
   --color-white: ;
   --color-white: ;
