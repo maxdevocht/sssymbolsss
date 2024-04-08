@@ -7,7 +7,7 @@
 
 :root {
   --color-white: #fafafa;
-  --color-black: #1f1f1f;
+  --color-black: #000000;
   --color-blue: #36B4E5;
   --color-white: ;
   --color-white: ;
@@ -53,18 +53,24 @@ body {
 
 /* nav styles */
 .navbar {
-  background-color: var(--color-black);
+  padding: 10px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 999;
 }
-
-.logo {
-  width: 150px;
-}
-
 .nav--menu {
+  border-radius: 50%;
+  padding: 2px;
+  background: rgba(255,255,255,0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
+.menu--btn {
   color: #fafafa;
-  font-size: var(--biggest-font-size);
+  font-size: 2rem;
 }
