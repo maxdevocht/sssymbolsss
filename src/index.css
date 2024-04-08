@@ -50,3 +50,21 @@ img, video {
 body {
   
 }
+
+/* nav styles */
+.navbar {
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav--menu {
+  color: #fafafa;
+  font-size: var(--biggest-font-size);
+}
