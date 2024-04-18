@@ -3,7 +3,7 @@
   src: local("Antique"),
     url("./font/Antique-Olive-Bold_3863.tff") format("tff");
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 
 :root {
   --color-white: #fafafa;
@@ -41,6 +41,14 @@ li {
   list-style: none;
 }
 
+.blue {
+  color: var(--color-blue);
+}
+
+button {
+  border: none;
+}
+
 img, video {
   width: 100%;
   height: 100%;
@@ -74,6 +82,49 @@ body {
   color: #ffffff;
 }
 
+.header{
+  margin-bottom: 3rem;
+}
+
 .header--vid {
   padding: 0 1rem;
 }
+
+/* coder styling */
+.coder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 5rem;
+  letter-spacing: .25rem;
+  font-family: 'Anton', sans-serif;
+}
+
+.description {
+  color: white;
+  text-align: center;
+  padding: 0 5rem;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 3rem;
+  font-weight: 300;
+}
+
+.description span {
+  font-weight: 700;
+}
+
+.btn {
+  background-color: var(--color-blue);
+  padding: 1rem 5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+/* devoder styling */
