@@ -32,10 +32,6 @@
 
 a {
   text-decoration: none;
-  color: var(--color-blue);
-  border-bottom: 1px solid var(--color-blue);
-  font-family: 'Anton', sans-serif;
-  letter-spacing: 1px;
 }
 
 li {
@@ -77,6 +73,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.socials {
+  display: none;
 }
 
 .logo {
@@ -197,7 +197,7 @@ body {
   padding: 1rem;
   padding-top: 3rem;
   gap: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,6 +228,14 @@ body {
   max-width: 300px;
 }
 
+.name--link {
+  text-decoration: none;
+  color: var(--color-blue);
+  border-bottom: 1px solid var(--color-blue);
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1px;
+}
+
 .name--job {
   font-size: var(--p-font-size);
   font-family: 'Inter', sans-serif;
@@ -247,3 +255,34 @@ body {
 .copyright i {
   color: var(--color-white);
 }
+
+@media screen and (min-width: 481px) {
+  .menu--btn {
+    display: none;
+  }
+  
+  .socials {
+    color: var(--color-white);
+    font-size: var(--h1-font-size);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .nft--img {
+    max-width: 700px;
+  }
+
+  .about {
+    padding: 5rem;
+    justify-content: space-between;
+  }
+
+  .bio--description {
+    max-width: 900px;
+  }
+}
+
