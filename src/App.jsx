@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Coder from './components/Coder'
 import Decoder from './components/Decoder'
+import About from './components/About'
 import './App.css'
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       <Header />
       <Coder />
       <Decoder />
+      <About />
     </>
   )
 }

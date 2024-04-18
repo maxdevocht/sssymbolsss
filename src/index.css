@@ -122,10 +122,12 @@ body {
 
 .btn {
   background-color: var(--color-blue);
-  padding: 1rem 5rem;
+  padding: .5rem 4rem;
   border-radius: 10px;
   cursor: pointer;
   font-weight: 900;
+  font-size: var(--h2-font-size);
+  font-family: 'Anton', sans-serif;
   margin-bottom: 3rem;
 }
 
@@ -152,4 +154,35 @@ body {
 
 .description2 span {
   font-weight: 700;
+}
+
+/* about styling */
+.about {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.bio--title {
+  font-size: var(--biggest-font-size);
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.bio--description {
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 3rem;
+  font-weight: 300;
 }
