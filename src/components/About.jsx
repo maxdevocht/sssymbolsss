@@ -10,7 +10,7 @@ export default function About() {
                 <button className="btn">BUY</button>
             </div>
             <div className="about--img">
-                <img src="./src/assets/img/nft1.png" alt="nft image" className="nft--img" />
+                <img src="/nft1.png" alt="nft image" className="nft--img" />
             </div>
         </section>
     )
