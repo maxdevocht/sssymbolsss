@@ -106,6 +106,33 @@ body {
   margin-bottom: 3rem;
 }
 
+.coder__list {
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.wrapper1 {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 15rem;
+  justify-items: stretch;
+  animation: scroll 15s linear infinite;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 20rem;
+  justify-items: stretch;
+  animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    translate: calc(-4 * 15rem);
+  }
+}
+
 .title {
   font-size: 5rem;
   letter-spacing: .25rem;
