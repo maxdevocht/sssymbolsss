@@ -104,6 +104,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 3rem;
+  overflow: hidden;
 }
 
 .coder__list {
@@ -173,6 +174,7 @@ body {
   justify-content: center;
   margin-bottom: 3rem;
   background-color: var(--color-white);
+  overflow: hidden;
 }
 
 .description2 {
